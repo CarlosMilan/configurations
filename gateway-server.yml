@@ -9,6 +9,12 @@ spring:
           enabled: true
           lowerCaseServiceId: true
 
+logging:
+  level:
+    com.netflix: WARN
+    org.springframework.web: WARN
+    com.optimagrowth: DEBUG
+
 eureka:
   instance:
     preferIpAddress: true
